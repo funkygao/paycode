@@ -1,0 +1,22 @@
+# TODO
+
+- [ ] 频繁刷新
+
+- [X] 暴露了uid
+  引入另外一套uid，仅仅给该业务使用
+  同时，把该uid与real uid进行对应
+
+- [ ] 时钟不同步问题
+
+- [ ] key的保护和传递
+
+- [ ] 防止码被重刷
+  记录最近一分钟内某个用户的所有passwd
+  redis(uid): list(passwd)
+
+- [ ] 暴露uid，则用户的barcode可能被暴利破解
+
+- [ ] https://en.wikipedia.org/wiki/ID-based_encryption
+
+- [ ] 风控
+  如果密码多次不对，则记录
