@@ -10,3 +10,7 @@
 
 利用two factor auth+uid生成与时间有关的加密18位数字组成的付款码。
 
+### References
+
+https://tools.ietf.org/html/rfc6238
+https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm
